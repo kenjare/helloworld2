@@ -88,13 +88,13 @@ namespace HelloWorld
             Console.WriteLine("Do you Continue searching");
             Console.WriteLine("Press s to Search");
             Console.WriteLine("Press C to continue");
-            input = Console.ReadKey().Keychar;
+            input = Console.ReadKey().KeyChar;
             if (input == 's')
             {
             Console.WriteLine("you open the closet and find a severly injured cashier missing his lower torso");
             Console.WriteLine("You Try and ask if the cashier is ok but then" + petname + "Begins to attack The wounded teenager");
             }
-            else if (input == c)
+            else if (input == 'c')
             {
                 Console.WriteLine("You continue to search and find a machete");
             }
